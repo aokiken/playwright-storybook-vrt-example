@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "workspaces": [
+    "taskbox",
+    "e2e"
+  ],
+  "scripts": {
+    "taskbox:start": "yarn workspace taskbox start",
+    "taskbox:build": "yarn workspace taskbox build",
+    "taskbox:test": "yarn workspace taskbox test",
+    "taskbox:eject": "yarn workspace taskbox eject",
+    "taskbox:storybook": "yarn workspace taskbox storybook",
+    "taskbox:build-storybook": "yarn workspace taskbox build-storybook",
+    "taskbox:extract": "cd taskbox; npx sb extract",
+    "taskbox:init-msw": "yarn workspace taskbox init-msw",
+    "e2e:test": "yarn workspace e2e playwright test"
+  }
+}
