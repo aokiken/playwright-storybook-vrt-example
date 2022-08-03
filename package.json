@@ -11,8 +11,9 @@
     "taskbox:eject": "yarn workspace taskbox eject",
     "taskbox:storybook": "yarn workspace taskbox storybook",
     "taskbox:build-storybook": "yarn workspace taskbox build-storybook",
-    "taskbox:extract": "cd taskbox; npx sb extract",
     "taskbox:init-msw": "yarn workspace taskbox init-msw",
-    "e2e:test": "yarn workspace e2e playwright test"
+    "e2e:storybook-static-extract-stories": "yarn workspace e2e run ts-node scripts/extract.ts",
+    "e2e:test": "yarn workspace e2e playwright test",
+    "e2e:show-report": "yarn workspace e2e playwright show-report"
   }
 }
